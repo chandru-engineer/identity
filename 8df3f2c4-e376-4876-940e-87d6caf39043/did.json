@@ -1,0 +1,24 @@
+{
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:chandru-engineer.github.io:identity:8df3f2c4-e376-4876-940e-87d6caf39043",
+        "alsoKnownAs": [
+            "did.test@gmail.com.test"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:web:chandru-engineer.github.io:identity:8df3f2c4-e376-4876-940e-87d6caf39043#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:chandru-engineer.github.io:identity:8df3f2c4-e376-4876-940e-87d6caf39043",
+                "publicKeyMultibase": "z6MkoBhsaoSL1rzXToGaDdtUHqTcLqgK6FeRhYo28BFrREJB"
+            }
+        ],
+        "authentication": [
+            "did:web:chandru-engineer.github.io:identity:8df3f2c4-e376-4876-940e-87d6caf39043#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:chandru-engineer.github.io:identity:8df3f2c4-e376-4876-940e-87d6caf39043#key-0"
+        ]
+    }

@@ -1,0 +1,24 @@
+{
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:rcw:63c70a41-ccee-412f-87fc-8c0902b37c68",
+        "alsoKnownAs": [
+            "did.test@gmail.com.test"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:rcw:63c70a41-ccee-412f-87fc-8c0902b37c68#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:rcw:63c70a41-ccee-412f-87fc-8c0902b37c68",
+                "publicKeyMultibase": "z6MknLLUgK4wHXXMhJfymGtpEb2tnEmX3YMYbhRdrc7HNT5V"
+            }
+        ],
+        "authentication": [
+            "did:rcw:63c70a41-ccee-412f-87fc-8c0902b37c68#key-0"
+        ],
+        "assertionMethod": [
+            "did:rcw:63c70a41-ccee-412f-87fc-8c0902b37c68#key-0"
+        ]
+    }
